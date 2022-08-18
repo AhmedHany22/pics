@@ -1,13 +1,82 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(47, 45, 61) !important;
+}
+.mansory-container {
+  margin: 3% 5%;
+}
+.prompt {
+  background-color: rgb(53, 52, 61) !important;
+}
+.segment {
+  background-color: rgb(54, 54, 72) !important;
+}
+.icon,
+.prompt {
+  color: #fff !important;
+}
+.input {
+  width: 100%;
+}
+.mansory {
+  columns: 5;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.modal-adjust {
+  padding-top: 7%;
+}
+.modal-body {
+  background-color: rgb(47, 45, 61) !important;
+}
+.carousel-image {
+  width: 100% !important;
+  /* height: 90vh !important; */
+}
+.pagi-nums {
+  color: #fff;
+  border: 2px solid rgb(54, 54, 72) !important;
+  background-color: rgb(47, 45, 61) !important;
+}
+.pagi-marg {
+  margin-top: 40px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active .pagi-nums {
+  border: 2px solid rgb(54, 54, 72) !important;
+  background-color: rgb(26, 24, 24) !important;
+}
+.img-card {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 770px) {
+  .mansory {
+    columns: 4;
+  }
+  .pagi-marg {
+    margin-top: 25px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mansory {
+    columns: 3;
+  }
+  .pagi-marg {
+    margin-top: 40px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .mansory {
+    columns: 2;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mansory {
+    columns: 1;
+  }
+  .pagi-marg {
+    margin-top: 10px !important;
+  }
 }
